@@ -23,17 +23,17 @@
     <img class="topicon" src="svgo/header.svg" alt="Liber-Coffee"/>
     <p class="gothic title">  Liber-Coffee  </p>
     <p class="gothic subtitle">Helldivers loadout randomizer</p>
-    <p class="gothic">PERKS</p>
+    <p class="gothic">特殊装備</p>
     <div class="itemWhide">
       <img class="itemPic" ng-click="rollPerk()" ng-src="svgo/{{loadout.perk.img}}.svg"/>
       <p class="gothic label" ng-bind-template="{{loadout.perk.name}}"></p>
     </div>
-    <p class="gothic">PRIMARY WEAPON</p>
+    <p class="gothic">メインウェポン</p>
     <div class="itemWhide">
       <img class="itemPic" ng-click="rollPrimary()" ng-src="svgo/{{loadout.primary.img}}.svg"/>
         <p class="gothic label" ng-bind-template="{{loadout.primary.name}}"></p>
     </div>
-    <p class="gothic">STRATAGEMS</p>
+    <p class="gothic">戦略支援</p>
     <div class="stratagems">
       <div ng-repeat="stratagem in loadout.stratagems">
         <img class="shade"

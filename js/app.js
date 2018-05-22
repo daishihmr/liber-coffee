@@ -37,7 +37,7 @@ angular.module('liber-coffee', ['arsenal', 'hash64'])
       pool: "punishments"
     }
   ];
-  $scope.dicemode = $scope.diceoptions[0];
+  $scope.dicemode = $scope.diceoptions[1];
 
   $scope.calcHash = function() {
     if ($scope.loadout.id) {
