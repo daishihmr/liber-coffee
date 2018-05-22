@@ -6,50 +6,50 @@ angular.module('arsenal', ['hash64'])
   arsenal.hash = hash64;
   arsenal.perks = [
     {//a
-      name: "Laser Aim Module",
+      name: "レーザーモジュール Aim Module",
       img: "Laser_Aim_Module",
       weights: {
         hell: 0.5
       }
     },
     {//b
-      name: "MD-99 AutoInjector",
+      name: "MD-99 アドレナリン注射",
       img: "MD-99",
       weights: {
         hell: 0.5
       }
     },
     {//c
-      name: "Cardio Accelerator",
+      name: "心肺機能加速装置",
       img: "Cardio_Accelerator"
     },
     {//d
-      name: "Heavy Armor",
+      name: "ヘビーアーマー",
       img: "Heavy_Armor"
     },
     {//e
-      name: "Incendiary Grenades",
+      name: "ファイアグレネード",
       img: "Incendiary_Grenades",
       weights: {
         hell: 3
       }
     },
     {//f
-      name: "Stun Grenades",
+      name: "スタングレネード",
       img: "Stun_Grenades",
       weights: {
         hell: 3
       }
     },
     {//g
-      name: "Smoke Grenades",
+      name: "スモークグレネード",
       img: "Smoke_Grenades",
       weights: {
         hell: 3
       }
     },
     {//h
-      name: "Stratagem Priority",
+      name: "戦略支援優先権",
       img: "Stratagem_Priority",
       weights: {
         nice: 5,
@@ -57,7 +57,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//i
-      name: "Displacement Field",
+      name: "テレポートフィールド",
       img: "Displacement_Field",
       weights: {
         nice: 5,
@@ -65,68 +65,68 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//j
-      name: "Strong Arm",
+      name: "腕力強化",
       img: "Strong_Arm",
       weights: {
         hell: 2
       }
     },
     {//k
-      name: "P-6 'Gunslinger'",
+      name: "P-6 ガンスリンガー",
       img: "P-6",
       weights: {
         hell: 3
       }
     },
     {//l
-      name: "FLAM-24 'Pyro'",
+      name: "FLAM-24 パイロ",
       img: "FLAM-24",
       weights: {
         hell: 3
       }
     },
     {//m
-      name: "PLAS-3 'Singe'",
+      name: "PLAS-3 シンジ",
       img: "PLAS-3",
       weights: {
         hell: 3
       }
     },
     {//n
-      name: "All Terrain Boots",
+      name: "全地形対応ブーツ",
       img: "All_Terrain_Boots"
     },
     {//o
-      name: "Precision Call-In",
+      name: "降下速度上昇",
       img: "Precision_Call-In"
     }
   ];
 
   arsenal.primaries = [
     {//a
-      name: "AR-19 'Liberator'",
+      name: "AR-19 リベレイター",
       img: "AR-19"
     },
     {//b
-      name: "AR-20L 'Justice'",
+      name: "AR-20L ジャスティス",
       img: "AR-20L",
       weights: {
         nice: 5
       }
     },
     {//c
-      name: "AR-22C 'Patriot'",
+      name: "AR-22C パトリオット",
       img: "AR-22C"
     },
     {//d
-      name: "SG-225 'Breaker'",
+      name: "SG-225 ブレイカー",
       img: "SG-225",
       weights: {
         nice: 5
       }
     },
     {//e
-      name: "SG-8 'Punisher'",
+      name: "SG-8 パニッシャー",
       img: "SG-8",
       weights: {
         nice: 0.5,
@@ -134,40 +134,40 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//f
-      name: "DBS-2 'Double Freedom'",
+      name: "DBS-2 ダブルフリーダム",
       img: "DBS-2",
       weights: {
         nice: 5
       }
     },
     {//g
-      name: "SMG-45 'Defender'",
+      name: "SMG-45 ディフェンダー",
       img: "SMG-45"
     },
     {//h
-      name: "MP-98 'Knight'",
+      name: "MP-98 サブマシンガンナイト",
       img: "MP-98"
     },
     {//i
-      name: "RX-1 Rail Gun",
+      name: "RX-1 レールガン",
       img: "RX-1",
       weights: {
         nice: 0.5
       }
     },
     {//j
-      name: "LAS-5 'Scythe'",
+      name: "LAS-5 サイス",
       img: "LAS-5"
     },
     {//k
-      name: "LAS-13 'Trident'",
+      name: "LAS-13 トライデント",
       img: "LAS-13",
       weights: {
         nice: 5
       }
     },
     {//l
-      name: "AC-3 Arc Thrower",
+      name: "AC-3 ライトニング放射器",
       img: "AC-3",
       weights: {
         nice: 0.5,
@@ -175,45 +175,45 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//m
-      name: "MG-105 'Stalwart'",
+      name: "MG-105 スタルワート",
       img: "MG-105"
     },
     {//n
-      name: "SMG-34 'Ninja'",
+      name: "SMG-34 忍者",
       img: "SMG-34"
     },
     {//o
-      name: "LHO-63 'Camper'",
+      name: "LHO-63 キャンパー",
       img: "LHO-63",
       weights: {
         nice: 0.5
       }
     },
     {//p
-      name: "AR-14D 'Paragon'",
+      name: "AR-14D パラゴン",
       img: "AR-14D"
     },
     {//q
-      name: "CR-9 'Supressor'",
+      name: "CR-9 サプレッサー",
       img: "CR-9"
     },
     {//r
-      name: "PLAS-1 'Scorcher'",
+      name: "PLAS-1 スコーチャー",
       img: "PLAS-1"
     },
     {//s
-      name: "LAS-16 'Sickle'",
+      name: "LAS-16 シクル",
       img: "LAS-16",
       weights: {
         nice: 5
       }
     },
     {//t
-      name: "LAS-12 'Tanto'",
+      name: "LAS-12 タント",
       img: "LAS-12"
     },
     {//u
-      name: "AC-5 Arc Shotgun",
+      name: "AC-5 アークショットガン",
       img: "AC-5",
       weights: {
         nice: 0.5,
@@ -221,7 +221,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//v
-      name: "M2016 'Constitution'",
+      name: "M2016 コンスティチューション",
       img: "M2016",
       weights: {
         nice: 0.5,
@@ -236,7 +236,7 @@ angular.module('arsenal', ['hash64'])
 
   arsenal.stratagems = [
     {//a
-      name: "Resupply",
+      name: "補給",
       img: "Resupply",
       color: arsenal.BGCOLOR_SUPPLY,
       weights: {
@@ -244,42 +244,42 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//b
-      name: "MG-94 Machine Gun",
+      name: "MG-94 マシンガン",
       img: "MG-94",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//c
-      name: "LAS-98 Laser Cannon",
+      name: "LAS-98 レーザーキャノン",
       img: "LAS-98",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//d
-      name: "AC-22 'Dum-Dum'",
+      name: "AC-22 オートキャノン ダムダム",
       img: "AC-22",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//e
-      name: "'Obliterator' Grenade Launcher",
+      name: "抹殺グレネードランチャー",
       img: "Obliterator",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//f
-      name: "M-25 'Rumbler'",
+      name: "M-25 ランブラー",
       img: "M-25",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//g
-      name: "FLAM-40 'Incinerator'",
+      name: "FLAM-40 火炎放射器",
       img: "FLAM-40",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//h
-      name: "TOX-13 'Avenger'",
+      name: "TOX-13 アベンジャー",
       img: "TOX-13",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//i
-      name: "RL-112 Recoilless Rifle",
+      name: "RL-112 無反動ライフル",
       img: "RL-112",
       color: arsenal.BGCOLOR_SUPPLY
     },
@@ -289,22 +289,22 @@ angular.module('arsenal', ['hash64'])
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//k
-      name: "MLS-4X 'Commando'",
+      name: "MLS-4X コマンドー",
       img: "MLS-4X",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//l
-      name: "AD-334 'Guard Dog'",
+      name: "AD-334 ガードドッグ",
       img: "AD-334",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//m
-      name: "AD-289 'Angel'",
+      name: "AD-289 エンジェル",
       img: "AD-289",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//n
-      name: "Resupply Pack",
+      name: "補給パック",
       img: "Resupply_Pack",
       color: arsenal.BGCOLOR_SUPPLY,
       weights: {
@@ -312,17 +312,17 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//o
-      name: "LIFT-850 Jump Pack",
+      name: "LIFT-850 ジャンプパック",
       img: "LIFT-850",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//p
-      name: "SH-32 Directional Kinetic Shield",
+      name: "SH-32 指向性減速シールド",
       img: "SH-32",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//q
-      name: "SH-20 Shield Generator Pack",
+      name: "SH-20 シールドパック",
       img: "SH-20",
       color: arsenal.BGCOLOR_SUPPLY
     },
@@ -332,92 +332,92 @@ angular.module('arsenal', ['hash64'])
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//s
-      name: "REC-6 'Demolisher'",
+      name: "REC-6 デモリッシャー",
       img: "REC-6",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//t
-      name: "EXO-44 'Stomper' Exosuit",
+      name: "EXO-44 エクソスーツ ストンパー",
       img: "EXO-44",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//u
-      name: "EXO-48 'Obsidian' Exosuit",
+      name: "EXO-48 オブシディアン",
       img: "EXO-48",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//v
-      name: "EXO-51 'Lumberer' Exosuit",
+      name: "EXO-51 ランブラー",
       img: "EXO-51",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//w
-      name: "MC-109 'Hammer' Motorcycle",
+      name: "MC-109 軍用オートバイ ハンマー",
       img: "MC-109",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//x
-      name: "TD-110 'Bastion'",
+      name: "TD-110 バスティオン",
       img: "TD-110",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//y
-      name: "M5 APC",
+      name: "M5 兵員輸送装甲車",
       img: "M5",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//z
-      name: "M5-32 HAV",
+      name: "M5-32 強襲戦闘車",
       img: "M5-32",
       color: arsenal.BGCOLOR_SUPPLY
     },
     {//A
-      name: "'Humblebee' UAV drone",
+      name: "無人飛行型ドローン バンブルビー",
       img: "UAV",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//B
-      name: "Distractor Beacon",
+      name: "かく乱ビーコン",
       img: "Distractor_Beacon",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//C
-      name: "AT-47 Anti-Tank Emplacement",
+      name: "AT-47 対戦車用固定砲台",
       img: "AT-47",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//D
-      name: "A/MG-II Minigun Turret",
+      name: "A/MG-II ミニガン砲塔",
       img: "MG-II",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//E
-      name: "A/RX-34 Railcannon Turret",
+      name: "A/RX-34 レールキャノン砲塔",
       img: "RX-34",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//F
-      name: "A/AC-6 Tesla Tower",
+      name: "A/AC-6 テスラタワー",
       img: "AC-6",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//G
-      name: "Airdropped Mines",
+      name: "空中投下対戦車地雷",
       img: "Airdropped_Mines",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//H
-      name: "Anti-Personnel Barrier",
+      name: "対人バリアー",
       img: "Anti-Personnel_Barrier",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//I
-      name: "Airdropped Stun Mines",
+      name: "空中投下スタン地雷",
       img: "Airdropped_Stun_Mines",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//J
-      name: "Static Field Conductors",
+      name: "電磁フィールド",
       img: "Static_Field_Conductors",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -425,7 +425,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//K
-      name: "Airstrike",
+      name: "ヘビーエアストライク",
       img: "Airstrike",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -433,7 +433,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//L
-      name: "'Vindicator' Dive Bomb",
+      name: "急降下ボム ヴィンディケーター バンカーバスター",
       img: "Vindicator",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -441,17 +441,17 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//M
-      name: "Strafing Run",
+      name: "機銃掃射",
       img: "Strafing_Run",
       color: arsenal.BGCOLOR_OFFENSIVE
     },
     {//N
-      name: "Close Air Support",
+      name: "低空エアサポート",
       img: "Close_Air_Support",
       color: arsenal.BGCOLOR_OFFENSIVE
     },
     {//O
-      name: "Incendiary Bombs",
+      name: "ファイアボム ヘルファイア",
       img: "Incendiary_Bombs",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -459,7 +459,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//P
-      name: "Missile Barrage",
+      name: "ミサイル弾幕",
       img: "Missile_Barrage",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -467,7 +467,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//Q
-      name: "Thunderer Barrage",
+      name: "トリプル集中砲火",
       img: "Thunderer_Barrage",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -475,7 +475,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//R
-      name: "Orbital Laser Strike",
+      name: "軌道レーザー",
       img: "Orbital_Laser_Strike",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -483,7 +483,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//S
-      name: "'Shredder' Missile Strike",
+      name: "ミサイルストライク",
       img: "Shredder",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -491,7 +491,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//T
-      name: "Railcannon Strike",
+      name: "レールキャノン",
       img: "Railcannon_Strike",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -499,7 +499,7 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//U
-      name: "'Sledge' Precision Artillery",
+      name: "自動追尾式集中砲火",
       img: "Sledge_Precision_Artillery",
       color: arsenal.BGCOLOR_OFFENSIVE,
       weights: {
@@ -507,17 +507,17 @@ angular.module('arsenal', ['hash64'])
       }
     },
     {//V
-      name: "A/GL-8 Launcher Turret",
+      name: "A/GL-8 砲塔型グレネードランチャー",
       img: "Launcher_Turret",
       color: arsenal.BGCOLOR_DEFENSIVE
     },
     {//W
-      name: "Heavy Strafing Run",
+      name: "機関砲掃射",
       img: "Heavy_Strafing_Run",
       color: arsenal.BGCOLOR_OFFENSIVE
     },
     {//X
-      name: "Thunderer Smoke Round",
+      name: "スモーク弾集中砲火",
       img: "Thunderer_Smoke_Round",
       color: arsenal.BGCOLOR_DEFENSIVE
     }
