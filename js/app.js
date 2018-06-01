@@ -16,7 +16,8 @@ angular.module('liber-coffee', ['arsenal', 'hash64'])
     {
       id: 2,
       label: "Normal dice - Unweighted",
-      type: "weighting"
+      type: "weighting",
+      weighting: "normal",
     },
     {
       id: 3,

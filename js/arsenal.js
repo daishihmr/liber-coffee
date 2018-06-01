@@ -240,7 +240,8 @@ angular.module('arsenal', ['hash64'])
       img: "Resupply",
       color: arsenal.BGCOLOR_SUPPLY,
       weights: {
-        nice: 10
+        nice: 10,
+        normal: 10,
       }
     },
     {//b
@@ -520,7 +521,7 @@ angular.module('arsenal', ['hash64'])
       name: "スモーク弾集中砲火",
       img: "Thunderer_Smoke_Round",
       color: arsenal.BGCOLOR_DEFENSIVE
-    }
+    },
   ];
 
   arsenal.loadouts = {
